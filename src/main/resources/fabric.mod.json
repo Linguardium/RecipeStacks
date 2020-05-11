@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "recipestacks",
+  "version": "${version}",
+  "name": "Recipe Stacks",
+  "description": "Allows ItemStack remainders in Recipes. Supports damaging materials!",
+  "authors": [
+    "Linguardium"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/recipestacks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mod.linguardium.recipestacks.Main"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "recipestacks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
